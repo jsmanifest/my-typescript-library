@@ -1,4 +1,4 @@
-const { sayHello } = require("./dist");
+import { sayHello } from './dist/index.js';
 
 sayHello();
 sayHello();
