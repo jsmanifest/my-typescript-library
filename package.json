@@ -11,7 +11,7 @@
 		"packlist": "npx npm-packlist",
 		"build": "tsup src/index.ts",
 		"start": "npm run build -- --watch",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "node client.js"
 	},
 	"keywords": [],
 	"author": "Christopher Tran <pfftdammitchris@gmail.com>",
